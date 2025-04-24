@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Switcher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="transition-colors duration-300 ease-in-out">
+
+  <nav class="bg-gray-800 text-white p-4 flex gap-4">
+    <a href="/" class="hover:underline">Home</a>
+    <a target="_blank" href="https://www.youtube.com/@chaiaurcode" class="hover:underline">YouTube Channel</a>
+  </nav>
+
+  <div class="canvas text-center py-10">
+    <h1 class="text-3xl font-bold mb-6">Color Scheme Switcher</h1>
+
+    <div class="flex justify-center gap-4 mb-6">
+      <span class="button h-10 w-10 rounded-full cursor-pointer bg-gray-500" id="grey"></span>
+      <span class="button h-10 w-10 rounded-full cursor-pointer bg-white border" id="white"></span>
+      <span class="button h-10 w-10 rounded-full cursor-pointer bg-blue-500" id="blue"></span>
+      <span class="button h-10 w-10 rounded-full cursor-pointer bg-yellow-400" id="yellow"></span>
+      <span class="button h-10 w-10 rounded-full cursor-pointer bg-purple-600" id="purple"></span>
+    </div>
+
+    <h2 class="text-xl text-gray-700">
+      Try clicking on one of the colors above  
+      <span class="block">to change the background color of this page!</span>
+    </h2>
+  </div>
+
+  <script src="chaiaurcode.js"></script>
+</body>
+</html>
